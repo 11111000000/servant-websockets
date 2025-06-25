@@ -11,7 +11,8 @@ copyright:           2017 Lorenz Moesenlechner
 category:            Servant, Web
 build-type:          Simple
 extra-source-files:  README.md CHANGELOG.md
-cabal-version:       >=1.10
+cabal-version:       >=2.2
+-- [patched for GHC 9.12/Cabal 3.14: updated cabal-version]
 
 library
   hs-source-dirs:      src
