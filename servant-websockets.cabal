@@ -1,3 +1,4 @@
+cabal-version:       3.0
 name:                servant-websockets
 version:             1.2.0
 homepage:            https://github.com/moesenle/servant-websockets#readme
@@ -11,7 +12,6 @@ copyright:           2017 Lorenz Moesenlechner
 category:            Servant, Web
 build-type:          Simple
 extra-source-files:  README.md CHANGELOG.md
-cabal-version:       3.0
 -- [patched for GHC 9.12/Cabal 3.14: updated cabal-version]
 
 library
